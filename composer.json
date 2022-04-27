@@ -1,0 +1,27 @@
+{
+  "name": "bymega/login-with-id",
+  "description": "Provides automatic login with user id",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tahsin Gungordu",
+      "email": "admin@bymega.com"
+    }
+  ],
+  "require": {},
+
+  "autoload": {
+    "psr-4": {
+      "Bymega\\LoginWithId\\": "src"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bymega\\LoginWithId\\LoginWithIdServiceProvider"
+      ]
+    }
+  }
+}
