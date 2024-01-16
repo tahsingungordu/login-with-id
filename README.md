@@ -17,7 +17,7 @@ composer require bymega/login-with-id
 The defaults are set in `config/loginwithid.php`. Publish the config to copy the file to your own config:
 
 ```
-php artisan vendor:publish --tag="loginwithid"
+php artisan vendor:publish --provider="Bymega\LoginWithId\LoginWithIdServiceProvider"
 ```
 
 ### Options
